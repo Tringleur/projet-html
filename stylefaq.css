@@ -1,0 +1,39 @@
+body {		
+	margin:10px;
+	/*background-image: url("../images/fonds.gif");*/
+	background-attachment: fixed;
+  background-size:cover;
+  background-color:#D3D3D3;
+  text-align: center;
+  margin: 0 auto;
+  margin:30px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex-grow:1;
+}
+
+#copyr {
+  color: gray;
+}
+
+p {
+  /*box-shadow: 4px 4px 8px black;*/
+  text-align: center;
+  
+}
+
+.faq{
+        margin: 40px 0;
+}
+
+.faq label:hover{
+        background: #f5f5f5;
+}
+section{
+  background-color:#424558;
+  color:#FF8000; 
+}

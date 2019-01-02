@@ -1,0 +1,82 @@
+body {		
+	margin:10px;
+	/*background-image: url("../images/fonds.gif");*/
+	background-attachment: fixed;
+  background-size:cover;
+  background-color:#D3D3D3;
+  text-align: center;
+  margin: 0 auto;
+  margin:30px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex-grow:1;
+}
+
+#copyr {
+  color: gray;
+}
+
+
+
+.questr
+{
+    font-family: "Geo";
+}
+
+
+@font-face{
+  font-family: "Geo";
+  src: url("../font/GeosansLight-Oblique.ttf");
+}
+
+
+
+
+
+.Equipe {
+  color : rgb(230,100,40) ;
+}
+
+.Present {
+  color : #FF8000;
+}
+
+aside {
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+p {
+  /*box-shadow: 4px 4px 8px black;*/
+  text-align: center;
+  
+}
+
+.subtitle {
+  color: #836594;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+#parentDivCartes {
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  align-items:center;
+}
+
+.divCarte {
+  border: 3px solid #a5a5a5;
+  /*background-color: rgba(228,77,38,0.15);*/
+  background-color: #424558;
+}
+
+.divCarte:hover{
+  background-color: black;
+}
