@@ -1,31 +1,65 @@
 body {		
-  margin:10px;
+	margin:10px;
   background-color:#D3D3D3;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
 
-main {
-  flex-grow:1;
-}
-
-#copyr {
-	color: gray;
-}
-
-p {
-	text-align: center; 
-}
-
-.faq{
-	margin: 40px 0;
-}
-
-.faq label:hover{
-	background: #f5f5f5;
-}
 section{
-  background-color:#424558;
   color:#FF8000; 
+}
+
+/* Espacement entre les questions */
+.faq-section{
+        margin: 40px 0;
+}
+
+/* Masquer les checkbox et les paragraphes */
+.faq-section input,
+.faq-section p{
+        display: none;
+}
+
+
+
+/* Si le checkbox est coché, montrer tous les paragraphes */
+.faq-section input[type=checkbox]:checked~p{
+       display: block;
+        color: #FF8000;
+        font-size: 100%;
+        overflow: visible;
+}
+/* label style*/
+.faq-section label{
+        font-size: 130%;
+        background: #eee;
+        display: block;
+        position: relative;
+        padding: 7px 10px;
+        font-weight: bold;
+        border-left: 3px solid #888;
+}
+
+.faq-section label:hover{
+        background: #424558;
+}
+
+/* style de la fleche */
+.faq-section label::before{
+        content: '';
+        position: absolute;
+        right: 4px;
+        top: 50%;
+        margin-top: -6px;
+        border: 6px solid transparent;
+        border-left-color: inherit;
+}
+
+/* fleche apres selection*/
+.faq-section input[type=checkbox]:checked~label::before{
+        border: 6px solid transparent;
+        border-top-color: inherit;
+        margin-top: -3px;
+        right: 10px;
 }
