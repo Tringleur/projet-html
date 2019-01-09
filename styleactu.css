@@ -1,67 +1,68 @@
-body {    
-  margin:10px;
+body {        
+    margin:10px;
   background-color:#D3D3D3;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+  margin: 0 auto;
+  margin:30px;
+  height: 100vh;
 }
 
 main {
-  flex-grow:1;
+ 
 }
 
-aside {
-  float: left;
+article
+{
+  display:inline;
+}
+
+p {
+  /*box-shadow: 4px 4px 8px black;*/
   text-align: center;
-  width: 100%;
+  
 }
 
-.table{
-  text-align: center;
-}
 
-thead
-{
- background-color: #424558;
- box-shadow: 20px 20px 20px black;
- color:#FF8000;
-}
-
-tbody
-{
- box-shadow: 15px 15px 15px black;
- color:#FF8000;
-}
-
-tbody>tr:nth-child(odd){background-color : #424558;}
-tbody>tr:nth-child(even) {background-color : #424558;}
-tbody>tr{text-align: center}
-
-tr
-{
- border: 5px solid green;
-}
 .voiture{
   width: 200px;
 }
 
-tr>th:hover .voiture{
-  display: block;
-  color:#FF8000;
-  transition: all .3s .1s;
-  width: 300px;
-}
-
-ul>a:hover .voiture{
-  opacity: .5;
-}
 
 h3
 {
   color:#FF8000;
   text-align: center;
+  /*background-color : rgba(165,42,42,0.2);*/
   background-color: #424558;
+  /*box-shadow: 7px 7px 10px red;*/
   font-size: 200%;
+}
+hr{
+  color :#FF8000;
+  height:2px;
+  width:50%;
+}
+
+h4
+{
+ color:#FF8000;
+}
+
+.fiche
+{
+  display:flex;
+  border:2px;
+}
+
+.fiche2
+{
+  display:flex;
+  border:2px;
+}
+
+.bareme
+{
+  box-shadow: 5px 5px 5px black;
+  height: 1%;
 }
 
 footer
@@ -89,6 +90,11 @@ h2
 {
    color:#FF8000;
    background-color: #424558;
+}
+
+.table{
+  display: flex;
+  border: 2px;
 }
 
 
