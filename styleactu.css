@@ -1,15 +1,9 @@
 body {    
   margin:10px;
-  /*background-image: url("../images/fonds.gif");*/
-  background-attachment: fixed;
-  background-size:cover;
   background-color:#D3D3D3;
   text-align: center;
-  margin: 0 auto;
-  margin:30px;
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
 main {
@@ -28,7 +22,6 @@ aside {
 
 thead
 {
- /*background-color : rgba(165,42,42,0.3);*/
  background-color: #424558;
  box-shadow: 20px 20px 20px black;
  color:#FF8000;
@@ -46,9 +39,7 @@ tbody>tr{text-align: center}
 
 tr
 {
-
  border: 5px solid green;
-
 }
 .voiture{
   width: 200px;
@@ -69,9 +60,7 @@ h3
 {
   color:#FF8000;
   text-align: center;
-  /*background-color : rgba(165,42,42,0.2);*/
   background-color: #424558;
-  /*box-shadow: 7px 7px 10px red;*/
   font-size: 200%;
 }
 
