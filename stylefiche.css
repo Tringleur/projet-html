@@ -1,15 +1,10 @@
 body {		
-	margin:10px;
-	/*background-image: url("../images/fonds.gif");*/
-	background-attachment: fixed;
-  background-size:cover;
+  margin:10px;
+  background-attachment: fixed;
   background-color:#D3D3D3;
   text-align: center;
-  margin: 0 auto;
-  margin:30px;
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
 main {
